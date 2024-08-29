@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color: burlywood;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        label{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: cornflowerblue;
+        }
+        .Submit{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: larger;
+            font-weight: bold;
+            color: chocolate;
+        }
+        .placeholder{
+            font-style: italic;
+            font-family: cursive;
+        }
+
+    </style>
+</head>
+<body>
+  <h1>Hostel Room Maintenance</h1>  
+
+  <label for="Name">Name: </label>
+  <input type="text" placeholder="E.g Wangchuk Gyeltshen" required class="placeholder"><br><br>
+  <label for="Room Number">Room Number: </label>
+  <input type="text" placeholder="E.g H-11-B" class="placeholder"><br><br>
+ 
+  <label for="Urgency of the Issue">Urgency of the Issue: </label> <br><br>
+  <label for="Low">Low</label>
+  <input type="radio" name="Urgency of the Issue"required> 
+  <label for="Medium">Medium: </label>
+  <input type="radio" name="Urgency of the Issue"required> 
+  <label for="High">High: </label>
+  <input type="radio" name="Urgency of the Issue"required> <br><br>
+
+  <label for="Type of Issue">Type of Issue: </label> 
+  <input type="text" required> <br><br>
+
+  <label for="Describe the Issue">Describe the Issue: </label>
+  <input type="text" required> <br><br>
+
+  <input type="submit" value="SUBMIT" class="Submit"> 
+</body>
+</html>
